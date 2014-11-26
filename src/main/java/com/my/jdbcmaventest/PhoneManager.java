@@ -16,10 +16,10 @@ import java.util.List;
 public class PhoneManager {
     public static void main(String[] args) {
         PhoneDao phoneDao = new JdbcTemplatePhoneDao();
-//добавление в бд
+
         Phone phone = new Phone();
         phone.setId(123456);
-        phone.setName("Fly");
+        phone.setName("Nokia");
         phone.setPrice(15.54);
 
         try{
