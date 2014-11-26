@@ -33,7 +33,7 @@ public class PhoneManager {
 //вывод таблицы бд
         List<Phone> allPhones = phoneDao.getAllPhones();
         print(allPhones);
-//обновление записи
+//обновление записиdsfsdfsdfsdfsdfsdfsdf
         phone.setName("Fly2");
         phoneDao.updatePhone(phone);
         Phone phoneById = phoneDao.getPhoneById(phone.getId()); //получение по полю id(сделать id ключем)
