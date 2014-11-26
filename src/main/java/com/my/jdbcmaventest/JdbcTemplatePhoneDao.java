@@ -23,7 +23,7 @@ public class JdbcTemplatePhoneDao implements PhoneDao {
     public JdbcTemplatePhoneDao() {
         MysqlDataSource dataSource = new MysqlDataSource();
         dataSource.setUser("root");
-        dataSource.setPassword("root");
+        dataSource.setPassword("root"); //sdfsdfsdf
         dataSource.setURL("jdbc:mysql://localhost/basephone?characterEncoding=utf8");
         jdbcTemplate = new JdbcTemplate(dataSource);
     }
