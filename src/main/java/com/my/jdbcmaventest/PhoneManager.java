@@ -44,7 +44,7 @@ public class PhoneManager {
         //вывод одного телефона
         System.out.println("-----------------");
         System.out.println(phone);
-        System.out.println("-----------------");dfdf
+        System.out.println("-----------------");
     }
 
     private static void print(List<Phone> allPhones) {
