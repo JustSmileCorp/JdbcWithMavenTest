@@ -42,9 +42,7 @@ public class PhoneManager {
 
     private static void print(Phone phone) {
         //вывод одного телефона
-        System.out.println("-----------------");
-        System.out.println(phone);
-        System.out.println("-----------------");
+
     }
 
     private static void print(List<Phone> allPhones) {
